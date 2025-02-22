@@ -1,12 +1,13 @@
 ---@diagnostic disable: undefined-global
-project "glfw3"
+project "GLFW3"
     kind "StaticLib"
-    language "C"
-    staticruntime "Off"
+    language "C++"
+	cppdialect "C++20"
+    staticruntime "On"
     warnings "off"
 
-    targetdir ("Build/Target/" .. OUTPUT_DIR .. "/%{prj.name}")
-    objdir ("Build/Obj/" .. OUTPUT_DIR .. "/%{prj.name}")
+    targetdir ("%{wks.location}/Build/Target/" .. OUTPUT_DIR .. "/%{prj.name}")
+    objdir ("%{wks.location}/Build/Obj/" .. OUTPUT_DIR .. "/%{prj.name}")
 
     files
     {
@@ -20,6 +21,7 @@ project "glfw3"
         "src/null_monitor.c",
         "src/null_window.c",
         "src/platform.c",
+		"src/vulkan.c",
         "src/window.c"
     }
 
@@ -41,7 +43,9 @@ project "glfw3"
 			"src/egl_context.c",
 			"src/osmesa_context.c",
 			"src/linux_joystick.c"
-        }
+		}
+
+		defines { "_GLFW_X11" }
 
     filter "system:macosx"
         pic "On"
@@ -60,6 +64,8 @@ project "glfw3"
 			"src/egl_context.c"
 		}
 
+		defines { "_GLFW_COCOA" }
+
     filter "system:windows"
 		systemversion "latest"
 
@@ -76,6 +82,8 @@ project "glfw3"
 			"src/egl_context.c",
 			"src/osmesa_context.c"
 		}
+
+		defines { "_GLFW_WIN32" }
 
     filter "configurations:Debug"
 		runtime "Debug"
