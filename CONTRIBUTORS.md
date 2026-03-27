@@ -10,6 +10,7 @@ video tutorials.
  - Matt Arsenault
  - Takuro Ashie
  - ashishgamedev
+ - avagordon01
  - David Avedissian
  - Luca Bacci
  - Keith Bauer
@@ -23,6 +24,7 @@ video tutorials.
  - Denis Bernard
  - BiBi
  - Doug Binks
+ - bitb4ker
  - blanco
  - Waris Boonyasiriwat
  - Kyle Brenneman
@@ -55,6 +57,7 @@ video tutorials.
  - Jason Daly
  - danhambleton
  - Jarrod Davis
+ - decce
  - Olivier Delannoy
  - Paul R. Deppe
  - Michael Dickens
@@ -68,14 +71,17 @@ video tutorials.
  - Jan Ekström
  - Siavash Eliasi
  - er-azh
+ - Jan Hendrik Farr
  - Ahmad Fatoum
  - Nikita Fediuchin
  - Felipe Ferreira
  - Michael Fogleman
+ - Folling
  - forworldm
  - Jason Francis
  - Gerald Franz
  - Mário Freitas
+ - Friz64
  - GeO4d
  - Marcus Geelnard
  - Gegy
@@ -121,6 +127,7 @@ video tutorials.
  - Josh Kilmer
  - Byunghoon Kim
  - Cameron King
+ - knokko
  - Peter Knut
  - Christoph Kubisch
  - Yuri Kunde Schlesner
@@ -156,8 +163,10 @@ video tutorials.
  - Bryce Mehring
  - Jonathan Mercier
  - Marcel Metz
+ - Lucas Michaudel
  - Liam Middlebrook
  - mightgoyardstill
+ - Mihail
  - Ave Milia
  - Icyllis Milica
  - Jonathan Miller
@@ -278,10 +287,12 @@ video tutorials.
  - Corentin Wallez
  - Torsten Walluhn
  - Patrick Walton
+ - Ivor Wanders
  - Jim Wang
  - Xo Wang
  - Andre Weissflog
  - Jay Weisskopf
+ - Drew Weymouth
  - Frank Wille
  - Andy Williams
  - Joel Winarske
